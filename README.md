@@ -119,6 +119,29 @@
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLayers Map</title>
+    
+  <!-- Include OpenLayers CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol/ol.css">
+    
+    <!-- Include OpenLayers JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/ol/ol.js"></script>
+    
+<style>
+        /* Add some basic styles for the map container */
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
 
 
 
