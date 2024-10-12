@@ -63,6 +63,81 @@
 
 
 
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Images</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 100px; /* Control image size */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table with Images</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<h1>Stylish Team Table</h1>
+
+<table>
+        <tr>
+            <th>Image</th>
+            <th>Experience</th>
+            <th>Technologies</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td><img src="C:\Users\ASUS\Downloads\indir.htm"></td>
+            <td>Language learning</td>
+            <td>Mondly VR</td>
+            <td>Watch in original language</td>
+        </tr>
+        <tr>
+            <td><img src="https://via.placeholder.com/80" alt="Team Member 2"></td>
+            <td>social media management</td>
+            <td>Hootsuite</td>
+            <td>Illustration or Cartoon Drawing</td>
+        </tr>
+        <tr>
+            <td><img src="https://via.placeholder.com/80" alt="Team Member 3"></td>
+            <td>Travel Abroad</td>
+            <td>Eventbrite</td>
+            <td>Keeping a Travel Journal</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+
 
 
 
