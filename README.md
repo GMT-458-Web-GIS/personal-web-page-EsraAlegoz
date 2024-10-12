@@ -14,7 +14,7 @@
     </header>
 
 <section>
-  <p>Hello! This is my personal web page where I share details about my language experience, technologies I work with, and my hobbies. Feel free to explore!</p>
+  <p>Hello! This is my personal web page where I share details about my life experience, technologies I work with, and my hobbies. Feel free to explore!</p>
   </section>
 
 
@@ -39,10 +39,7 @@
 </head>
 <body>
 
- </head>
-<body>
-    <header>
-        <h1>Experience</h1>
+
       
 </body>
 </html>
@@ -66,32 +63,7 @@
 </body>
 </html> 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table with Images</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        img {
-            width: 100px; /* Control image size */
-            height: auto;
-        }
-    </style>
-</head>
-<body>
+
 
 
 <!DOCTYPE html>
@@ -114,7 +86,7 @@
             <th>Hobbies</th>
         </tr>
         <tr>
-            <td><img src="C:\Users\ASUS\Downloads\indir.htm"></td>
+            <td><img "C:\Users\ASUS\Downloads\indir.htm "></td>
             <td>Language learning</td>
             <td>Mondly VR</td>
             <td>Watch in original language</td>
@@ -136,6 +108,14 @@
 </body>
 </html>
 
+<p> *Mondly VR: VR gözlükler aracılığıyla gerçek hayat dil senaryolarını simüle eder. Kullanıcılar sanal bir ortamda bir dili konuşma pratiği yapar.</p>
+  </section>
+
+<p> *Hootsuite: Farklı sosyal medya platformlarında içerik paylaşımını planlamak ve analiz etmek için kullanılır. Hootsuite, kullanıcıların birden fazla sosyal medya hesabını tek bir yerden yönetmelerine olanak tanır.</p>
+  </section>
+
+<p> *Eventbrite: Yerel etkinlikler ve konserler hakkında bilgi bulmak için kullanılabilir. Seyahat ettiğiniz bölgelerdeki etkinlikleri takip etmenizi sağlar.</p>
+  </section>
 
 
 
