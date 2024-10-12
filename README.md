@@ -123,7 +123,7 @@
             <td><img src="https://via.placeholder.com/80" alt="Team Member 2"></td>
             <td>social media management</td>
             <td>Hootsuite</td>
-            <td>Illustration or Cartoon Drawing</td>
+            <td>Illustration or Cartoon Drawing</td> 
         </tr>
         <tr>
             <td><img src="https://via.placeholder.com/80" alt="Team Member 3"></td>
