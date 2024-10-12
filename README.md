@@ -48,17 +48,6 @@
 </html>
 
 
-<section>
- <nav>
-  <ul>
-  <li><a href="Determine your purpose for learning a language.html">Determine your purpose for learning a language</a></li>
-  <li><a href="technologies.html">Technologies</a></li>
-  <li><a href="hobbies.html">Hobbies</a></li>
-  </ul>
-  </nav>
-
-
-
 
 
 
