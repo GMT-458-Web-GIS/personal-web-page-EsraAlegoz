@@ -1,80 +1,33 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/O2YWE8TK)
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-  <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+     <title>My first website</title>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Personal Web Page </h1>
-    </header>
+  <body style="background-color:blueviolet;">
 
-<section>
-  <p>Hello! This is my personal web page where I share details about my life experience, technologies I work with, and my hobbies. Feel free to explore!</p>
-  </section>
+<!--
+    1. inline
+    2. Internal
+    3. External
+-->
+
+<h1 style="color: hotpink;">This is my website</h1>
+
+<p style="background-color:bisque; color: darkred; ">Hello! This is my personal web page where I share details about my life experience, technologies I work with, and my hobbies. Feel free to explore 
+
+</p>
+   </body>
+</html>   
 
 
-  <nav>
+<nav>
   <ul>
   <li><a href="experience.html">Experience</a></li>
   <li><a href="technologies.html">Technologies</a></li>
   <li><a href="hobbies.html">Hobbies</a></li>
   </ul>
   </nav>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    
-</head>
-<body>
-
-
-      
-</body>
-</html>
-
-
-
-
-
-
-  
-  <p>1. Determine your purpose for learning a language
-    2. Practice regularly every day
-    3. Diversify your language learning tools
-    4. Find a language partner
-    5.Immerse yourself in the language environment 
-    6.Learn the culturel context !</p>
-  </section>
-
-
-
-</body>
-</html> 
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Table with Images</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
-</head>
-<body>
 
 <h1>Stylish Table</h1>
 
@@ -117,31 +70,23 @@
 <p> *Eventbrite: Yerel etkinlikler ve konserler hakkında bilgi bulmak için kullanılabilir. Seyahat ettiğiniz bölgelerdeki etkinlikleri takip etmenizi sağlar.</p>
   </section>
 
-</head>
-<body>
+#box1{
+      width: 250px;
+      height: 250px;
+      background: red;
+      font-size: 225px
+      text-align: center;
 
+animation: mySlide; 
+animation-duration:
+}
 
-npm install ol
-
-import Map from 'ol/Map';
-import View from 'ol/View';
-import TileLayer from 'ol/layer/Tile';
-import XYZ from 'ol/source/XYZ';
-
-new Map({
-  target: 'map',
-  layers: [
-    new TileLayer({
-      source: new XYZ({
-        url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
-      })
-    })
-  ],
-  view: new View({
-    center: [0, 0],
-    zoom: 2
-  })
-});
+@keyframes mySlide{
+    from{margin-left:100%}
+    to{margin-left:0%;}
+}
+      
+  
 
 
 
@@ -160,16 +105,6 @@ new Map({
 
 
 
-
-
-
-
-
-<footer>
-  <p>&copy; 2024 My Web Page</p>
-  </footer>
-</body>
-</html>
 
 
 
