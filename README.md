@@ -76,7 +76,7 @@
 </head>
 <body>
 
-<h1>Stylish Team Table</h1>
+<h1>Stylish Table</h1>
 
 <table>
         <tr>
@@ -117,32 +117,31 @@
 <p> *Eventbrite: Yerel etkinlikler ve konserler hakkında bilgi bulmak için kullanılabilir. Seyahat ettiğiniz bölgelerdeki etkinlikleri takip etmenizi sağlar.</p>
   </section>
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenLayers Map</title>
-    
-  <!-- Include OpenLayers CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol/ol.css">
-    
-    <!-- Include OpenLayers JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/ol/ol.js"></script>
-    
-<style>
-        /* Add some basic styles for the map container */
-        #map {
-            width: 100%;
-            height: 400px;
-        }
-    </style>
 </head>
 <body>
 
 
+npm install ol
+
+import Map from 'ol/Map';
+import View from 'ol/View';
+import TileLayer from 'ol/layer/Tile';
+import XYZ from 'ol/source/XYZ';
+
+new Map({
+  target: 'map',
+  layers: [
+    new TileLayer({
+      source: new XYZ({
+        url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+      })
+    })
+  ],
+  view: new View({
+    center: [0, 0],
+    zoom: 2
+  })
+});
 
 
 
@@ -162,7 +161,10 @@
 
 
 
-  
+
+
+
+
 <footer>
   <p>&copy; 2024 My Web Page</p>
   </footer>
