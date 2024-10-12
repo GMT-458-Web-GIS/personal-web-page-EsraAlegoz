@@ -76,15 +76,42 @@
       background: red;
       font-size: 225px
       text-align: center;
-
-animation: mySlide; 
-animation-duration:
+/*
+animation: mySlide;
+animation-play-state:running;
+animation-duration-count: infinite;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-duration: 5sn;
+*/
 }
+#box1:hover{
+     animation: 3s linear 0s infinite running mySlide;
+     }
+
 
 @keyframes mySlide{
     from{margin-left:100%}
     to{margin-left:0%;}
 }
+
+@keyframes myRotate{
+  100%{transform: rotateY(360deg)}}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+    }
+
+@keyframes myColorChange{
+ 20%{background-color: orange;}
+ 40%{background-color: yellow;}
+ 60%{background-color: green;}
+ 80%{background-color: blue;}
+ 100%{background-color: purple;}
+ }
+
+    
+
       
   
 
