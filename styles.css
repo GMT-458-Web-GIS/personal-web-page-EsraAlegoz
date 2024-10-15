@@ -1,0 +1,414 @@
+/* İletişim kutusu stili */
+.contact-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px; /* İç boşluk */
+    margin: 20px auto; /* Kenar boşluğu */
+    border-radius: 10px; /* Kenar yuvarlatma */
+    text-align: center; /* Yazıyı ortalar */
+    width: 300px; /* Genişlik */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+}
+
+/* Bağlantı stili */
+.contact-box a {
+    color: rgb(160, 51, 184); /* Bağlantı rengi */
+    text-decoration: none; /* Alt çizgi kaldırma */
+    transition: color 0.3s; /* Renk geçişi */
+}
+
+/* Bağlantıya fare ile gelindiğinde renk değişimi */
+.contact-box a:hover {
+    color: rgb(255, 255, 0); /* Fare ile gelindiğinde renk değişimi */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Varsayılan metin rengini beyaz yapar */
+}
+
+/* Header stil ayarları */
+header {
+    background-color: #0705308f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a, nav ul li button {
+    color: rgb(160, 51, 184);
+    text-decoration: none;
+}
+
+/* Footer stil ayarları */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Tablo stil ayarları */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(129, 9, 35);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ana sayfa arkaplan resmi */
+.space-background {
+    background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-flower-purple-flower-watercolor-background-picture-image_1591722.jpg');
+    background-size: cover; /* Resmi sayfa boyutuna göre ölçeklendirir */
+    height: 100vh; /* Sayfanın tamamını kaplar */
+}
+
+/* İkinci sayfa arkaplan resmi */
+.galaxy-background {
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-spring-pink-purple-flower-background-picture-image_1024251.jpg');
+    background-size: cover; /* Resmi sayfa boyutuna göre ölçeklendirir */
+    height: 100vh; /* Sayfanın tamamını kaplar */
+}
+
+/* Harita stil ayarları */
+#map {
+    width: 70%;
+    height: 300px;
+}
+
+/* Arkaplan resmi eklenen container */
+.welcome-container {
+    height: 100vh; /* Sayfanın tamamını kaplar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center,; /* Yazıyı ortalar */
+    text-shadow: 2px 2px 8px rgba(71, 227, 233, 0.7); /* Yazıya gölge efekti ekler */
+}
+
+/* Hakkımda sayfası stil ayarları */
+.about-container {
+    height: 100vh; /* Sayfanın tamamını kaplar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; /* Yazıyı ortalar */
+    text-shadow: 2px 2px 8px rgba(153, 26, 188, 0.7); /* Yazıya gölge efekti ekler */ }
+
+/* İletişim kutusu stili */
+.contact-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px; /* İç boşluk */
+    margin: 20px auto; /* Kenar boşluğu */
+    border-radius: 10px; /* Kenar yuvarlatma */
+    text-align: center; /* Yazıyı ortalar */
+    width: 300px; /* Genişlik */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+    margin-top: 80px; /* Kutuyu yukarı almak için boşluk ayarı */
+}
+
+/* Harita stil ayarları */
+.map {
+    width: 100%; /* Haritanın genişliği */
+    height: 500px; /* Haritanın yüksekliği */
+    margin: 20px auto; /* Kenar boşlukları */
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Haritanın etrafında beyaz kenar */
+    border-radius: 100px; /* Kenar yuvarlatma */
+}
+
+/* Genel Sayfa Stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ed93db; /* Sayfa arka plan rengi */
+    color: #333; /* Yazı rengi */
+}
+
+/* Header Stili */
+header {
+    background-color: #0f0439; /* Header arka plan rengi */
+    color: white; /* Header yazı rengi */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Hobi Kutuları Konteyneri */
+.hobby-container {
+    display: flex;
+    flex-wrap: wrap; /* Kutuları yan yana ve alta dizmek için */
+    justify-content: center; /* Kutuları ortala */
+    padding: 20px;
+}
+
+/* Hobi Kutularının Genel Stili */
+.hobby {
+    background-color:rgba(200, 190, 124, 0.2); /* İçerik kutusu arka plan rengi */
+    border-radius: 10px; /* Kenar yuvarlatma */
+    box-shadow: 0 2px 10px rgba(223, 146, 234, 0.1); /* Gölge efekti */
+    margin: 10px; /* Kutular arasında boşluk */
+    padding: 20px;
+    width: 200px; /* Her bir kutunun genişliği */
+    text-align: center; /* Yazıyı ortala */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hareketli animasyon */
+}
+
+/* Fare Kutunun Üzerine Gelince Hareket ve Büyüme Efekti */
+.hobby:hover {
+    transform: translateY(-10px) scale(1.1); /* Kutuyu hafifçe yukarı kaldır ve büyüt */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Daha belirgin bir gölge ekle */
+}
+
+/* Hobi Resimleri Stili */
+.hobby img {
+    width: 100%; /* Resim genişliği kutuya uygun */
+    border-radius: 5px; /* Resim kenar yuvarlatma */
+    transition: transform 0.3s ease; /* Resme de bir animasyon ekle */
+}
+
+/* Fare Resmin Üzerine Gelince Hafif Büyüme Efekti */
+.hobby img:hover {
+    transform: scale(1.05); /* Resmi biraz büyüt */
+}
+
+/* Hobi Başlık Stili */
+h2 {
+    color: rgb(200, 190, 124); /* Başlık rengi */
+    margin: 10px 0; /* Başlık üstü ve altı boşluk */
+    transition: color 0.3s ease; /* Renk değişimini yumuşak yap */
+}
+
+/* Fare Başlık Üzerine Gelince Renk Değişimi */
+.hobby:hover h2 {
+    color: rgb(71, 240, 255); /* Başlık rengi kırmızımsı bir tona değişsin */
+}
+
+/* Yazı Stili */
+p {
+    color: #333; /* Yazı rengi */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* İletişim kutusu stili */
+.contact-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px; /* İç boşluk */
+    border-radius: 10px; /* Kenar yuvarlatma */
+    text-align: center; /* Yazıyı ortalar */
+    width: 300px; /* Genişlik */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Gölge efekti */
+    position: absolute; /* Kutuya konumlandırma uygulandı */
+    top: 10%; /* Sayfanın üstünden %20 mesafeye konumlandırıldı */
+    left: 50%; /* Yatayda ortalamak için soldan %50 mesafeye alındı */
+    transform: translateX(-50%); /* Kutuyu tam ortalamak için yatayda translate yapıldı */
+}
+
+
+
+
+
+
+.image-box {
+    width: 300px; /* Kutu genişliği */
+    height: 300px; /* Kutu yüksekliği */
+    overflow: hidden; /* Taşan kısımları gizle */
+    border: 5px solid #000; /* Kenar rengi ve kalınlığı */
+    border-radius: 10px; /* Köşe yuvarlama */
+    display: flex; /* İçeriği ortalamak için */
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+    background-color: rgba(255, 255, 255, 0.8); /* Arka plan rengi */
+
+
+/* Resim stilini ayarla */
+
+}
+
+
+.image-box img {
+    width: 100%; /* Resmin genişliğini kutuya uyumlu yap */
+    height: 100%; /* Resmin yüksekliğini kutuya uyumlu yap */
+    object-fit: cover; /* Resmi kutuya sığdır ve orantıları koru */
+}
+
+
+
+
+
+
+
+
+
+/* Sayfa Genel Ortalama */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* İçeriği en üst kısma hizala */
+    align-items: center;
+    min-height: 20vh; /* Sayfanın %20'sini kaplasın, kutuları en üste taşır */
+    padding-top: 0; /* Üst boşluk tamamen kaldırıldı */
+    margin-top: 0; /* Yukarıdan boşluk kaldırıldı */
+    text-align: center;
+}
+
+/* Info Boxes Stil */
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px; /* Küçük bir üst boşluk bıraktık */
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8); /* Kutu arka plan rengi */
+    border: 2px solid #ccc; /* Kutu kenarları */
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    width: 30%; /* Her kutunun genişliği */
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    text-align: center; /* Yazıyı ortala */
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Genel stil ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Ortalanmış içerik */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Info Boxları için Flexbox ayarları */
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Kutular arasında boşluk */
+    margin-top: 20px;
+}
+
+/* Her bir kutu için stil */
+.box {
+    background-color: rgba(255, 255, 255, 0.8); /* Yarı saydam beyaz arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kutulara gölge efekti */
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Map - Esra Alegöz</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        /* Harita stil ayarları */
+        .map {
+            width: 100%; /* Haritanın genişliği */
+            height: 80vh; /* Haritanın yüksekliği */
+            margin: 60; /* Kenar boşlukları yok */
+            border: 2px solid rgba(182, 85, 202, 0.7); /* Haritanın etrafında beyaz kenar */
+            border-radius: 10px; /* Kenar yuvarlatma */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cities I visited in Turkiye</h1>
+    </header>
+
+    <main>
+        <div id="map" class="map"></div> <!-- Harita burada yüklenecek -->
+    </main>
+
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Harita oluşturma
+        var map = L.map('map').setView([39.9334, 32.8597], 6); // Türkiye'nin merkezine ayarlandı
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // İşaretleme için iller
+        var cities = [
+            { name: 'Ankara', coords: [39.9334, 32.8597] },
+            { name: 'İstanbul', coords: [41.0082, 28.9784] },
+            { name: 'İzmir', coords: [38.4192, 27.1444] },
+            { name: 'Antalya', coords: [36.9092, 30.6954] },
+            { name: 'Bursa', coords: [40.1826, 29.0610] },
+            { name: 'Şanlıurfa', coords: [37.1715, 38.7969] },
+            { name: 'Kastamonu', coords: [41.3879, 33.7821] },
+            { name: 'Çanakkale', coords: [40.1536, 26.4091] },
+            { name: 'Eskişehir', coords: [39.7767, 30.5206] },
+            { name: 'Muğla', coords: [37.2153, 28.3635] },
+            { name: 'Balıkesir', coords: [39.6495, 27.8870] },
+            { name: 'Sivas', coords: [39.7473, 37.0178] },
+            { name: 'Samsun', coords: [41.2866, 36.33] },
+            { name: 'Düzce', coords: [40.8415, 30.8796] },
+            { name: 'Sakarya', coords: [40.7753, 30.4405] },
+            { name: 'Amasya', coords: [40.6568, 35.8296] },
+            { name: 'Adana', coords: [37.0017, 35.3213] },
+            { name: 'Mersin', coords: [36.7995, 34.6408] },
+            { name: 'Edirne', coords: [41.6775, 26.5550] },
+            { name: 'Kocaeli', coords: [40.7660, 29.9285] },
+            { name: 'Denizli', coords: [37.4675, 29.0868] },
+            { name: 'Tekirdağ', coords: [40.9787, 27.5116] }, // Tekirdağ
+            { name: 'Ordu', coords: [40.9833, 37.8753] }, // Ordu
+            { name: 'Gaziantep', coords: [37.0662, 37.3833] }, // Gaziantep
+            { name: 'Malatya', coords: [38.4192, 38.3097] } // Malatya
+        ];
+
+        // İşaretçileri haritaya ekleme
+        cities.forEach(function(city) {
+            L.marker(city.coords).addTo(map)
+                .bindPopup(city.name) // İşaretçiye isim ekle
+                .openPopup(); // Harita açıldığında pop-up göster
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+       
